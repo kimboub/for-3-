@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+
+  int input;//함수를 지정한다.
+
+  scanf("%d",&input);//값을 입력받기
+ 
+  for (int i=1;i<=input;i++)//for문 설계, 함수설정, 3제곱출력
+    {
+      printf("%d의 3제곱=%d\n",i,i*i*i);//결과값
+    }
+  return 0;
+}
